@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS UP - Accueil</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <a class="logo" href="Accueil.html"><img src="images/logo.png" alt="Logo Books Up">BOOKS <span>UP</span></a>
+    <nav>
+        <a href="Accueil.html" aria-current="page">Accueil</a>
+        <a href="Sommaire.html">Sommaire</a>
+        <a href="bibliotheque.html">Bibliothèque</a>
+    </nav>
+</header>
+<section class="hero">
+    <p class="badge">Bibliothèque numérique</p>
+    <h1>Des livres, une seule plateforme.</h1>
+    <p>Books Up rassemble plusieurs livres dans une seule interface : recherchez, découvrez et consultez les livres disponibles.</p>
+    <div class="hero-boutons"><a class="btn" href="bibliotheque.html">Explorer la bibliothèque</a><a class="btn btn-clair" href="Sommaire.html">Voir le sommaire</a></div>
+</section>
+<section class="stats">
+    <div><strong>52</strong><span>livres</span></div><div><strong>6</strong><span>catégories</span></div>
+    <div><strong>PDF</strong><span>à lire ou télécharger</span></div><div><strong>100%</strong><span>responsive</span></div>
+</section>
+<main>
+<section class="section"><h2>Catégories</h2><div class="tuiles"><a class="tuile info" href="bibliotheque.html"><span class="emoji">💻</span><strong>Informatique</strong><small>11 livres</small></a><a class="tuile perso" href="bibliotheque.html"><span class="emoji">🚀</span><strong>Développement personnel</strong><small>15 livres</small></a><a class="tuile fin" href="bibliotheque.html"><span class="emoji">💰</span><strong>Finance &amp; Entrepreneuriat</strong><small>10 livres</small></a><a class="tuile spi" href="bibliotheque.html"><span class="emoji">🕊️</span><strong>Spiritualité &amp; Société</strong><small>7 livres</small></a><a class="tuile droit" href="bibliotheque.html"><span class="emoji">⚖️</span><strong>Droit &amp; Environnement</strong><small>5 livres</small></a><a class="tuile autres" href="bibliotheque.html"><span class="emoji">📘</span><strong>Autres</strong><small>4 livres</small></a></div></section>
+<section class="section"><h2>Livres à la une</h2><div class="rail"><article class="card info" data-texte="Apprendre Python 3.5">
+  <a class="cover" href="Livre/apprendre_python3_5.pdf" target="_blank" rel="noopener"><span class="emoji">💻</span><span class="cover-titre">Apprendre Python 3.5</span></a>
+  <div class="card-body">
+    <span class="tag">Informatique</span>
+    <h3>Apprendre Python 3.5</h3>
+    <p class="auteur">&nbsp;</p>
+    <div class="actions"><a class="btn petit" href="Livre/apprendre_python3_5.pdf" target="_blank" rel="noopener">Lire</a><a class="btn petit btn-clair" href="Livre/apprendre_python3_5.pdf" download>Télécharger</a></div>
+  </div>
+</article>
+<article class="card perso" data-texte="Petites habitudes, grandes réussites">
+  <a class="cover" href="Livre/Petites%20%20habitudes%2C%20Grandes%20r%C3%A9ussites.pdf" target="_blank" rel="noopener"><span class="emoji">🚀</span><span class="cover-titre">Petites habitudes, grandes réussites</span></a>
+  <div class="card-body">
+    <span class="tag">Développement personnel</span>
+    <h3>Petites habitudes, grandes réussites</h3>
+    <p class="auteur">&nbsp;</p>
+    <div class="actions"><a class="btn petit" href="Livre/Petites%20%20habitudes%2C%20Grandes%20r%C3%A9ussites.pdf" target="_blank" rel="noopener">Lire</a><a class="btn petit btn-clair" href="Livre/Petites%20%20habitudes%2C%20Grandes%20r%C3%A9ussites.pdf" download>Télécharger</a></div>
+  </div>
+</article>
+<article class="card perso" data-texte="POWER : les 48 lois du pouvoir Robert Greene">
+  <a class="cover" href="Livre/POWER%20%20-%20Les%2048%20lois%20de%20pouvoir%20Rober%20Green%20%28Version%20Fr%29.pdf" target="_blank" rel="noopener"><span class="emoji">🚀</span><span class="cover-titre">POWER : les 48 lois du pouvoir</span></a>
+  <div class="card-body">
+    <span class="tag">Développement personnel</span>
+    <h3>POWER : les 48 lois du pouvoir</h3>
+    <p class="auteur">Robert Greene</p>
+    <div class="actions"><a class="btn petit" href="Livre/POWER%20%20-%20Les%2048%20lois%20de%20pouvoir%20Rober%20Green%20%28Version%20Fr%29.pdf" target="_blank" rel="noopener">Lire</a><a class="btn petit btn-clair" href="Livre/POWER%20%20-%20Les%2048%20lois%20de%20pouvoir%20Rober%20Green%20%28Version%20Fr%29.pdf" download>Télécharger</a></div>
+  </div>
+</article>
+<article class="card fin" data-texte="Le Quadrant du Cashflow Robert T. Kiyosaki">
+  <a class="cover" href="Livre/Le%20%20Quadrant%20du%20Cashflow%C2%AE%20%28Robert%20T.%20Kiyosaki%29%20%28z-lib.org%29.pdf" target="_blank" rel="noopener"><span class="emoji">💰</span><span class="cover-titre">Le Quadrant du Cashflow</span></a>
+  <div class="card-body">
+    <span class="tag">Finance &amp; Entrepreneuriat</span>
+    <h3>Le Quadrant du Cashflow</h3>
+    <p class="auteur">Robert T. Kiyosaki</p>
+    <div class="actions"><a class="btn petit" href="Livre/Le%20%20Quadrant%20du%20Cashflow%C2%AE%20%28Robert%20T.%20Kiyosaki%29%20%28z-lib.org%29.pdf" target="_blank" rel="noopener">Lire</a><a class="btn petit btn-clair" href="Livre/Le%20%20Quadrant%20du%20Cashflow%C2%AE%20%28Robert%20T.%20Kiyosaki%29%20%28z-lib.org%29.pdf" download>Télécharger</a></div>
+  </div>
+</article>
+<article class="card fin" data-texte="L&#x27;homme le plus riche de Babylone Georges S. Clason">
+  <a class="cover" href="Livre/L%27homme%20%20le%20plus%20riche%20de%20Babylone%20par%20Georges%20S%20Clason.pdf" target="_blank" rel="noopener"><span class="emoji">💰</span><span class="cover-titre">L&#x27;homme le plus riche de Babylone</span></a>
+  <div class="card-body">
+    <span class="tag">Finance &amp; Entrepreneuriat</span>
+    <h3>L&#x27;homme le plus riche de Babylone</h3>
+    <p class="auteur">Georges S. Clason</p>
+    <div class="actions"><a class="btn petit" href="Livre/L%27homme%20%20le%20plus%20riche%20de%20Babylone%20par%20Georges%20S%20Clason.pdf" target="_blank" rel="noopener">Lire</a><a class="btn petit btn-clair" href="Livre/L%27homme%20%20le%20plus%20riche%20de%20Babylone%20par%20Georges%20S%20Clason.pdf" download>Télécharger</a></div>
+  </div>
+</article>
+<article class="card fin" data-texte="Réfléchissez et devenez riche">
+  <a class="cover" href="Livre/Reflechissez-Et-Devenez-Riche_5773689368-1.pdf" target="_blank" rel="noopener"><span class="emoji">💰</span><span class="cover-titre">Réfléchissez et devenez riche</span></a>
+  <div class="card-body">
+    <span class="tag">Finance &amp; Entrepreneuriat</span>
+    <h3>Réfléchissez et devenez riche</h3>
+    <p class="auteur">&nbsp;</p>
+    <div class="actions"><a class="btn petit" href="Livre/Reflechissez-Et-Devenez-Riche_5773689368-1.pdf" target="_blank" rel="noopener">Lire</a><a class="btn petit btn-clair" href="Livre/Reflechissez-Et-Devenez-Riche_5773689368-1.pdf" download>Télécharger</a></div>
+  </div>
+</article></div></section>
+<section class="section alt"><h2>Objectifs</h2><div class="features"><div class="feature"><span class="emoji">📚</span><h3>Centraliser</h3><p>Une bibliothèque numérique dans un site simple et moderne.</p></div><div class="feature"><span class="emoji">🔎</span><h3>Chercher vite</h3><p>Recherche rapide par titre, auteur, catégorie ou mot-clé.</p></div><div class="feature"><span class="emoji">📄</span><h3>Fiches détaillées</h3><p>Présenter une fiche détaillée pour chaque livre.</p></div><div class="feature"><span class="emoji">⬇️</span><h3>Télécharger</h3><p>Téléchargement des livres lorsque leur diffusion est légalement autorisée.</p></div><div class="feature"><span class="emoji">📈</span><h3>Évoluer</h3><p>Une architecture facile à agrandir avec de nouveaux livres et catégories.</p></div><div class="feature"><span class="emoji">🛠️</span><h3>Administrer</h3><p>Plus tard : un espace administrateur pour ajouter, modifier ou retirer des livres.</p></div></div></section>
+<section class="section"><h2>Fonctionnalités proposées</h2><ul class="fonc"><li>Accueil avec livres récents, populaires et catégories. <span class="ok">✔ disponible</span></li><li>Catalogue avec cartes de livres. <span class="ok">✔ disponible</span></li><li>Recherche instantanée. <span class="ok">✔ disponible</span></li><li>Filtres par catégorie. <span class="ok">✔ disponible</span></li><li>Page détail d&#x27;un livre. <span class="bientot">bientôt</span></li><li>Bouton Lire en ligne lorsque le format le permet. <span class="ok">✔ disponible</span></li><li>Bouton Télécharger pour les fichiers dont la diffusion est autorisée. <span class="ok">✔ disponible</span></li><li>Système de favoris local. <span class="bientot">bientôt</span></li><li>Responsive design pour téléphone, tablette et ordinateur. <span class="ok">✔ disponible</span></li><li>Administration future : ajout de livres, catégories, auteurs, couvertures et fichiers. <span class="bientot">bientôt</span></li></ul></section>
+</main>
+<footer class="footer">
+    <img src="images/logos.png" alt="Books Up - Lire, apprendre, évoluer" class="footer-logo">
+    <p>Books Up doit uniquement proposer des livres que l'on a le droit de distribuer : œuvres du domaine public ou sous licence libre.</p>
+</footer>
+</body>
+</html>
